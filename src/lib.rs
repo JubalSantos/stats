@@ -63,7 +63,7 @@ pub fn stddev(nums: &[f64]) -> Option<f64> {
                 .map(|value| {
                     let v = *value as f64;
                     let difference = nums_mean - v;
-                    difference * difference
+                    difference.powf(2.0)
                 })
                 .sum::<f64>()
                 / count as f64;
