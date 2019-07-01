@@ -1,5 +1,5 @@
 # Stats
-Copyright (c) 2019 Jubal Gonzalez-Santos Jubal2@pdx.edu
+Copyright (c) 2019 Bart Massey
 
 This program computes a basic statistic. Its input is
 taken from `stdin`, and must consist of floating-point
